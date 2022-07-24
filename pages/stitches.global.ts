@@ -15,6 +15,8 @@ export const globalStyles = globalCss({
 
     boxSizing: "border-box",
 
+    color: "$font2",
+
     "& p": {
       fontFamily:
         "Poppins, Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif",
@@ -63,10 +65,10 @@ export const globalStyles = globalCss({
   },
 
   "::-moz-selection": {
-    background: "$shadow",
+    background: "$gray8",
   },
 
   "::selection": {
-    background: "$divider",
+    background: "$gray8",
   },
 });

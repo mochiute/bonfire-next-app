@@ -1,3 +1,4 @@
+import { crimsonDark, purpleDark } from "@radix-ui/colors";
 import React from "react";
 
 function Logo() {
@@ -22,8 +23,8 @@ function Logo() {
           y2="-65.591"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#FBA94C"></stop>
-          <stop offset="1" stopColor="#8257E5"></stop>
+          <stop stopColor={crimsonDark.crimson9}></stop>
+          <stop offset="1" stopColor={purpleDark.purple9}></stop>
         </linearGradient>
       </defs>
     </svg>

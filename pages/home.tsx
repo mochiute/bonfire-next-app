@@ -1,11 +1,11 @@
-import { DefaultPageTemplateContainer } from "./templates/default-page-template/default-page-template-styles";
 import { Header } from "./components";
+import { DefaultPageTemplate } from "./templates";
 
 function Home() {
   return (
-    <DefaultPageTemplateContainer>
+    <DefaultPageTemplate>
       <Header />
-    </DefaultPageTemplateContainer>
+    </DefaultPageTemplate>
   );
 }
 

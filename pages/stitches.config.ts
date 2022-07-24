@@ -1,19 +1,33 @@
-import { grayDark, blueDark, redDark, greenDark } from "@radix-ui/colors";
+import {
+  mauveDark,
+  tomatoDark,
+  crimsonDark,
+  pinkDark,
+  plumDark,
+  purpleDark,
+  violetDark,
+} from "@radix-ui/colors";
 
 import { createStitches } from "@stitches/react";
 
 export const { styled, css, globalCss } = createStitches({
   theme: {
     colors: {
-      ...grayDark,
-      ...blueDark,
-      ...redDark,
-      ...greenDark,
+      ...tomatoDark,
+      ...crimsonDark,
+      ...pinkDark,
+      ...plumDark,
+      ...purpleDark,
+      ...mauveDark,
+      ...violetDark,
 
-      background1: "#09090A",
+      background1: "$mauve1",
+      backgroundUI1: "$mauve3",
 
-      font1: "$gray12",
-      font2: "$gray11",
+      font1: "$mauve12",
+      font2: "$mauve11",
+
+      border1: "$mauve7",
     },
     space: {
       1: "5px",
